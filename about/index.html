@@ -7,6 +7,7 @@
     <title>About</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/js/header.js" defer></script>
+    <script src="/js/modal.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                 <a href="/about" class="header__link">About</a>
                 <a href="/projects" class="header__link">Project</a>
                 <a href="/collaborations" class="header__link">Collaborations</a>
-                <a href="/contacts" class="header__link">Contacts</a>
+                <a href="#contacts" class="header__link">Contacts</a>
                 <div class="header__lang">
                     EN
                     <img src="/assets/images/arrow-down.svg" alt="Arrow down" class="header__lang-icon" />
@@ -219,27 +220,27 @@
 
             <div class="certificates-section__grid">
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
             </div>
@@ -255,34 +256,34 @@
 
             <div class="certificates-section__grid">
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
 
                 <div class="certificates-section__item">
-                    <div class="certificates-section__image-placeholder"></div>
+                    <div class="certificates-section__image-placeholder" data-index="0"></div>
                     <p class="certificates-section__text">SSU ISO 45001:2019</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="contacts">
         <div class="cta__container">
             <div class="cta__background">
                 <div class="cta__content">
@@ -329,6 +330,14 @@
 
         <p class="footer__copyright">© ARCHITECT EXPERT. All rights reserved.</p>
     </section>
+
+    <div class="modal" id="certificateModal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <img class="modal__main-image" src="" alt="Full Certificate" />
+            <div class="modal__thumbnails"></div>
+        </div>
+    </div>
 </body>
 
 </html>

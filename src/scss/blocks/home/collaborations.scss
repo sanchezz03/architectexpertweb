@@ -78,6 +78,15 @@
         width: 100px;
         height: 100px;
         background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url('/assets/images/software.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 56px 56px;
+
         border-radius: 50%;
     }
 
@@ -184,6 +193,7 @@
             height: 60px;
             top: 16px;
             left: 16px;
+            background-size: 28px 28px;
         }
 
         &__image-wrapper {
