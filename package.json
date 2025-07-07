@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build:sass",
-    "build:sass": "sass src/scss/main.scss dist/style.css --no-source-map --style=compressed",
-    "watch:sass": "sass --watch src/scss/main.scss dist/style.css"
+    "build:sass": "sass src/scss/main.scss style.css --no-source-map --style=compressed",
+    "watch:sass": "sass --watch src/scss/main.scss style.css"
   },
   "keywords": [],
   "author": "",
