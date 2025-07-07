@@ -14,6 +14,10 @@
         height: 500px;
         border-radius: 60px;
         background: #d9d9d9;
+        background-image: url('/assets/images/contacts-hero-bg.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     &__bottom-row {
@@ -28,6 +32,10 @@
         height: 500px;
         border-radius: 60px;
         background: #d9d9d9;
+        background-image: url('/assets/images/contacts-hero-bg.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     @media (max-width: 1200px) {
