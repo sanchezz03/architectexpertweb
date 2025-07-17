@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <script src="/js/header.js" defer></script>
+  <script src="/js/software.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -192,54 +195,70 @@
     </div>
   </section>
 
-  <section class="software">
+   <section class="software">
     <div class="software__container">
       <div class="software__header">
         <img src="assets/images/arrow-right-white.svg" alt="Arrow" class="software__icon" />
         <h2 class="software__title">Unsere Software</h2>
       </div>
 
-      <div class="software__cards">
-        <div class="software__card">
-          <div class="software__card-header">
-            <p class="software__card-title">Advance Steel</p>
-            <div class="software__circle software__circle--advance"></div>
-          </div>
-          <img src="assets/images/advance-steel.svg" alt="Software Screenshot" class="software__image" />
+    <div class="swiper software__swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="software__card">
+        <div class="software__card-header">
+          <p class="software__card-title">Advance Steel</p>
+          <div class="software__circle software__circle--advance"></div>
         </div>
-
-        <div class="software__card">
-          <div class="software__card-header">
-            <p class="software__card-title">Tekla Structures</p>
-           <div class="software__circle software__circle--tekla"></div>
-          </div>
-          <img src="assets/images/tekla-structures.svg" alt="Software Screenshot" class="software__image" />
-        </div>
-
-        <div class="software__card">
-          <div class="software__card-header">
-            <p class="software__card-title">Autodesk Autocad</p>
-            <div class="software__circle software__circle--autocad"></div>
-          </div>
-          <img src="assets/images/autodesk-autocad.svg" alt="Software Screenshot" class="software__image" />
-        </div>
-
-        <div class="software__card">
-          <div class="software__card-header">
-            <p class="software__card-title">AutoCAD</p>
-            <div class="software__circle software__circle--autocad2"></div>
-          </div>
-          <img src="assets/images/autodesk-autocad.svg" alt="Software Screenshot" class="software__image" />
-        </div>
-
-        <div class="software__card">
-          <div class="software__card-header">
-            <p class="software__card-title">Revit</p>
-            <div class="software__circle software__circle--autocad2"></div>
-          </div>
-          <img src="assets/images/revit.png" alt="Software Screenshot" class="software__image" />
-        </div>
+        <img src="assets/images/advance-steel.svg" alt="Software Screenshot" class="software__image" />
       </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="software__card">
+        <div class="software__card-header">
+          <p class="software__card-title">Tekla Structures</p>
+          <div class="software__circle software__circle--tekla"></div>
+        </div>
+        <img src="assets/images/tekla-structures.svg" alt="Software Screenshot" class="software__image" />
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="software__card">
+        <div class="software__card-header">
+          <p class="software__card-title">Autodesk Autocad</p>
+          <div class="software__circle software__circle--autocad"></div>
+        </div>
+        <img src="assets/images/autodesk-autocad.svg" alt="Software Screenshot" class="software__image" />
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="software__card">
+        <div class="software__card-header">
+          <p class="software__card-title">AutoCAD</p>
+          <div class="software__circle software__circle--autocad2"></div>
+        </div>
+        <img src="assets/images/autodesk-autocad.svg" alt="Software Screenshot" class="software__image" />
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="software__card">
+        <div class="software__card-header">
+          <p class="software__card-title">Revit</p>
+          <div class="software__circle software__circle--autocad2"></div>
+        </div>
+        <img src="assets/images/revit.png" alt="Software Screenshot" class="software__image" />
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
   </section>
 
   <section class="collaborations">
